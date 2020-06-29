@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello World!"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <EditText
+        android:id="@+id/to"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:hint="TO"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/from"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FROM"
+        android:inputType="text"/>
+
+    <!--<DatePicker-->
+    <!--android:id="@+id/datePicker"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginBottom="36dp" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:id="@+id/date"
+        android:text="Select date"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="180dp"
+        android:id="@+id/go"
+        android:textStyle="italic"
+        android:layout_marginLeft="30dp"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:layout_height="wrap_content"
+        android:text="Check Flight"/>
+
+
+</LinearLayout>
