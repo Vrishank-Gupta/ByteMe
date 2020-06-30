@@ -19,7 +19,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity" />
-        <activity android:name=".Details"></activity>
+        <activity android:name=".Details">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hp.byteme.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

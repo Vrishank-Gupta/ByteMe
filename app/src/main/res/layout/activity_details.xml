@@ -1,92 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_marginTop="10dp"
-    android:layout_marginLeft="10dp"
+    android:padding="30dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Details">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:textSize="25dp"
-        android:text="Airline name"
-        android:id="@+id/airline_name"
-        android:layout_marginTop="10dp"
-        android:layout_height="wrap_content" />
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:text="Plane number"
-        android:id="@+id/plane_number"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:text="Name "
+            android:id="@+id/tvName"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:text="Departure_airport"
-        android:id="@+id/Departure_airport"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Flight No. "
+            android:id="@+id/tvNumber"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:text="Arrival_Airport"
-        android:id="@+id/Arrival_Airport"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="From "
+            android:id="@+id/tvDep"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Departure Time "
+            android:id="@+id/tvDepTime"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:text="Arrival_time"
-        android:id="@+id/Arrival_time"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="To "
+            android:id="@+id/tvTo"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:text="Flight_duration"
-        android:id="@+id/Flight_duration"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Arrival time"
+            android:id="@+id/tvArrivalTime"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:text="Stops"
-        android:id="@+id/Stops"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Duration"
+            android:id="@+id/tvDuration"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:text="Original_Price"
-        android:id="@+id/Original_Price"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="No Of Stops"
+            android:id="@+id/tvStops"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:text="Reduced_Price"
-        android:id="@+id/Reduced_Price"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Original Price"
+            android:id="@+id/tvOrigPrice"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:text="Offers"
-        android:id="@+id/Offers"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Reduced Price"
+            android:id="@+id/tvRedPrice"
+            android:layout_height="wrap_content" />
 
-</LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Offers"
+            android:id="@+id/tvOffers"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
